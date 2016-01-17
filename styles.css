@@ -1,14 +1,19 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
 	background: #EDDEBB;
 	font: 12px Courier New, serif;
 }
 
 #wrap {
-	position: absolute;
-	left: 50%;
-	top: 30px;
-	width: 40%;
-	margin-left: -20%;
+	margin: 20px auto 0 auto;
+	max-width: 480px;
+	padding: 10px;
 }
 
 .subtitle {
@@ -28,4 +33,6 @@ h2 {
 
 article {
 	margin-top: 20px;
+	text-align: justify;
+	line-height: 1.5;
 }
